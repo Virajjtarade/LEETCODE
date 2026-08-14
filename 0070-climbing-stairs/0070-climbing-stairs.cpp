@@ -12,7 +12,7 @@ public:
         
         
         for (int i = 3; i <= n; ++i) {
-            current = prev1 + prev2;
+            current = prev1 + prev2; //
             prev2 = prev1;
             prev1 = current;
         }
